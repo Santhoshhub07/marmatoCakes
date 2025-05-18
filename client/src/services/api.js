@@ -2,7 +2,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 // Get API URL from environment variables
-const API_URL = import.meta.env.VITE_API_URL || 'https://marmato2.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL || 'https://marmatocakes.onrender.com';
 
 // Create axios instance
 const api = axios.create({
